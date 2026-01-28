@@ -1,8 +1,8 @@
 package ru.warpedlands.WLNode.unit;
 
 public abstract class Unit {
-    private int dedicatedRamMb;
-    private int priority;
+    private final int dedicatedRamMb;
+    private final int priority;
 
     public Unit(int dedicatedRamMb, int priority) {
         this.dedicatedRamMb = dedicatedRamMb;
