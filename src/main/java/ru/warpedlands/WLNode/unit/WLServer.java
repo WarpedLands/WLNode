@@ -1,7 +1,8 @@
 package ru.warpedlands.WLNode.unit;
 
 public class WLServer extends ExposedUnit {
-    public WLServer(int dedicatedRamMb, int priority) {
-        super(dedicatedRamMb, priority);
+    private ServerType serverType;
+    public WLServer(ServerType serverType) {
+        super(serverType.getDedicatedRamMb(), serverType.getServerPriority());
     }
 }
