@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.github.docker-java:docker-java:3.7.0")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
