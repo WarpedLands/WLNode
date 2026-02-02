@@ -1,7 +1,7 @@
 package ru.warpedlands.WLNode.unit;
 
 public enum ServerType {
-    HUB("Warpedlands/hub-server-image", "1.0", 1024, 1);
+    HUB("warpedlands/hub-server", "1.0", 1024, 1);
 
     private String image;
     private String preferredVersion;
